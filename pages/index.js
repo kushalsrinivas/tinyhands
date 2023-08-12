@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <div className="h-32 w-screen bg flex text-center align-middle justify-center font-bold p-8 text-black">
+        <div className="h-32 lg:w-full min-[850px]:w-full bg flex text-center align-middle justify-center font-bold p-8 text-black">
           <h1 className="text-5xl">Tiny Hands</h1>
         </div>
         <div className="hero">
@@ -29,7 +29,7 @@ export default function Home() {
         <div className="h-auto w-screen p-10 text-center bg-yellow-300">
           <div className="flex flex-col gap-10">
             <h1 className="text-7xl text-black">About Us</h1>
-            <p className="text-2xl text-justify w-3/4 text-black mx-auto">
+            <p className="lg:text-2xl text-sm text-center w-3/4 text-black mx-auto">
               At tiny hands, we specialize in creating a fun and engaging
               environment for kids aged 5 to 13 years. Located in Bengaluru, KA,
               our workshops focus on coaster painting and glass bottle painting,
