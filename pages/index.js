@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className="flex lg:flex-row flex-col items-center">
               <div className="card flex flex-col gap-5 p-5">
-                <div className="card-img "></div>
+                <div className=" h-80 w-80 rounded-md bg-black"></div>
                 <div className="text-5xl">
                   <h1>Glass Painting Workshop</h1>
                 </div>
@@ -64,7 +64,7 @@ export default function Home() {
               </div>
 
               <div className="card flex flex-col gap-5 p-5">
-                <div className="card-img "></div>
+                <div className=" h-80 w-80 rounded-md bg-black"></div>
                 <div className="text-5xl">
                   <h1>Shoe Painting Workshop</h1>
                 </div>
@@ -81,7 +81,7 @@ export default function Home() {
               </div>
 
               <div className="card flex flex-col gap-5 p-5">
-                <div className="card-img "></div>
+                <div className=" h-80 w-80 rounded-md bg-black"></div>
                 <div className="text-5xl">
                   <h1>Coaster Painting Workshop</h1>
                 </div>
