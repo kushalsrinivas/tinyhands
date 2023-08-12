@@ -13,8 +13,8 @@ export default function Home() {
         <div className="hero">
           <div className="hero-container">
             <div className="text-white text-center flex flex-col gap-5 h-full justify-center align-middle">
-              <h1 className="text-7xl">Paint Your Way To Fun</h1>
-              <p className="text-white text-2xl w-1/2 text-center mx-auto">
+              <h1 className="lg:text-7xl text-5xl ">Paint Your Way To Fun</h1>
+              <p className="text-white lg:text-2xl text-xl w-1/2 text-center mx-auto">
                 Let your kids unleash their creativity with our coaster and
                 glass bottle painting workshop for ages 5-13.
               </p>
@@ -46,7 +46,7 @@ export default function Home() {
             <div>
               <h1 className="text-7xl text-black">Our Services</h1>
             </div>
-            <div className="flex flex-row">
+            <div className="flex lg:flex-row flex-col items-center">
               <div className="card flex flex-col gap-5 p-5">
                 <div className="card-img "></div>
                 <div className="text-5xl">
